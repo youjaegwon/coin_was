@@ -63,3 +63,4 @@ prisma/migrations/
 # SvelteKit/Vite (if used)
 .svelte-kit/
 .vite/
+.vercel
