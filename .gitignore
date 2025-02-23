@@ -64,3 +64,4 @@ prisma/migrations/
 .svelte-kit/
 .vite/
 .vercel
+.env*.local
