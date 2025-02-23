@@ -1,0 +1,65 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.bun-debug.log*
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+.cache/
+
+# Dependency resolution
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.bun.lockb
+
+# Jest test results
+coverage/
+*.lcov
+
+# PM2 process manager files
+pm2.log
+pm2.pid
+pm2.yaml
+pm2.config.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Prisma (if used)
+prisma/.dev.db
+prisma/migrations/
+
+# Next.js (if used)
+.next/
+
+# SvelteKit/Vite (if used)
+.svelte-kit/
+.vite/
